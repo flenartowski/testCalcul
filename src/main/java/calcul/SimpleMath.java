@@ -19,11 +19,17 @@ public class SimpleMath {
     {
         return a*b;
     }
-     static public int divide(int a, int b)
-    {
-       
+     static public int divide(int a, int b)   {
+       try{
             return a/b;
-       
+       }
+     catch( ArithmeticException e)
+     {
+         return 0;
+     }    
+    
     }
+       
+    
      
 }

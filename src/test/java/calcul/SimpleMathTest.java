@@ -54,12 +54,12 @@ public class SimpleMathTest {
     public void testDivide() {
         System.out.println("divide");
         int a = 4;
-        int b = 2;
-        int expResult = 2;
-        int result = SimpleMath.divide(a, b);
-        assertEquals(expResult, result);
+        int b = 0;
+       int expResult = 0;
+       int result = SimpleMath.divide(a, b);
+       // assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-       // fail("The test case is a prototype.");
+        // fail("division par zéro");
     }
     
 }
