@@ -53,9 +53,9 @@ public class SimpleMathTest {
     @org.junit.Test
     public void testDivide() {
         System.out.println("divide");
-        int a = 4;
-        int b = 0;
-       int expResult = 0;
+       int a = 6;
+       int b = 3;
+       int expResult = 2;
        int result = SimpleMath.divide(a, b);
        // assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
